@@ -1,145 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تحميل كتاب الدروبشيبينغ بالذكاء الاصطناعي</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #1a1a2e;
-            color: #e0e0e0;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            background: #16213e;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
-            max-width: 600px;
-            margin: auto;
-        }
-        h1, h2, h3 {
-            color: #00d4ff;
-        }
-        a {
-            display: inline-block;
-            background: #00d4ff;
-            color: #16213e;
-            padding: 12px 25px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-        a:hover {
-            background: #00aaff;
-        }
-        textarea, input {
-            width: 90%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #00d4ff;
-            border-radius: 5px;
-            background: #0f3460;
-            color: white;
-        }
-        button {
-            background: #00d4ff;
-            color: #16213e;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-        button:hover {
-            background: #00aaff;
-        }
-        .ai-theme {
-            margin-top: 20px;
-            padding: 15px;
-            background: rgba(0, 255, 255, 0.1);
-            border-radius: 5px;
-        }
-        .author {
-            font-size: 18px;
-            font-weight: bold;
-            color: #ffd700;
-            margin-bottom: 10px;
-        }
-        .highlight {
-            color: #ff5733;
-            font-weight: bold;
-        }
-    </style>
-    <script>        let downloadCount = 8643;
-        function updateCounter() {
-            downloadCount++;
-            document.getElementById('counter').innerText = downloadCount;
-        }
-        function addReview(event) {
-            event.preventDefault();
-            let name = document.getElementById('name').value;
-            let comment = document.getElementById('comment').value;
-            if (name && comment) {
-                let reviewSection = document.getElementById('reviews');
-                let newReview = document.createElement('p');
-                newReview.innerHTML = `<strong>${name}:</strong> ${comment} ⭐⭐⭐⭐⭐`;
-                reviewSection.appendChild(newReview);
-                document.getElementById('name').value = '';
-                document.getElementById('comment').value = '';
-            }
-        }
-    </script>
-</head>
-<body>
-    <div class="container">
-        <h1>📘 تحميل كتاب الدروبشيبينغ بالذكاء الاصطناعي</h1>
-        <p class="author">✍️ تأليف: حيدرة زكور</p>
-        
-        <p>احصل على دليلك الشامل لاحتراف <span class="highlight">الدروبشيبينغ بالذكاء الاصطناعي</span> وانطلق نحو النجاح!</p>
-        
-        <a href="https://docs.google.com/document/d/1HN4He92-_Lf2XAgA4bHwjEFiZHoXnGY5/edit?usp=drivesdk&ouid=116487286445090990077&rtpof=true&sd=true" 
-           target="_blank" onclick="updateCounter()">📥 تحميل الكتاب الآن</a>
-        
-        <p>📊 عدد مرات التحميل: <span id="counter">4223</span></p>
-
-        <div class="ai-theme">
-            <h2>🚀 لماذا هذا الكتاب مهم؟</h2>
-            <p>تعرف على أحدث استراتيجيات <span class="highlight">الذكاء الاصطناعي</span> في التجارة الإلكترونية، وتعلم كيفية <span class="highlight">مضاعفة مبيعاتك</span> باستخدام الأدوات الذكية.</p>
-            
-            <h3>✅ مميزات الكتاب:</h3>
-            <ul style="text-align: right; direction: rtl;">
-                <li>📌 موجه خصيصًا للمبتدئين لبدء عملهم الخاص بسهولة.</li>
-                <li>🧠 كيفية استخدام الذكاء الاصطناعي لتحليل السوق وزيادة الأرباح.</li>
-                <li>💡 أسرار اختيار المنتجات الرابحة وأفضل الموردين.</li>
-                <li>📊 استراتيجيات تسويق فعالة لجذب المزيد من العملاء.</li>
-            </ul>
-            
-            <h3 class="highlight">🎁 الكتاب متاح مجانًا لفترة محدودة!</h3>
-        </div>
-
-        <h2>⭐ آراء القراء</h2>
-        <div id="reviews">
-            <p><strong>محمد:</strong> كتاب مفيد! تعلمت أشياء جديدة عن الدروبشيبينغ بالذكاء الاصطناعي. ⭐⭐⭐⭐⭐</p>
-            <p><strong>ليلى:</strong> ممتاز جدًا، ساعدني في تطوير مشروعي الإلكتروني! ⭐⭐⭐⭐</p>
-            <p><strong>أحمد:</strong> معلومات قيمة وشرح واضح، أنصح الجميع بقراءته. ⭐⭐⭐⭐⭐</p>
-            <p><strong>عمر:</strong> الله يوفقك يارب ❤️🌹</p>
-            <p><strong>سامي:</strong> ألف مبروك يا غالي 💚🤍</p>
-            <p><strong>رائد:</strong> مبروك يا ملك ❤️👑</p>
-            <p><strong>زيد:</strong> حيدروة الغالي إن شاء الله ألف مبروووك 🌹🤍</p>
-            <p><strong>مصطفى:</strong> موفق يا غالي 💚❤️🤍</p>
-        </div>
-
-        <h3>📝 أضف تقييمك:</h3>
-        <form onsubmit="addReview(event)">
-            <input type="text" id="name" placeholder="اسمك" required><br>
-            <textarea id="comment" placeholder="اكتب تعليقك هنا..." required></textarea><br>
-            <button type="submit">إرسال</button>
-        </form>
-    </div>
-</body>
-</html>
